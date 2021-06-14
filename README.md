@@ -3,6 +3,7 @@
 Repository for the firmware of the [Pocket Science Lab (PSLab)](https://pslab.io) open hardware platform.
 
 ![Build Status](https://github.com/fossasia/pslab-firmware/actions/workflows/main-builder.yml/badge.svg)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f15d1f78a7d64c3fb94804de1f5c07fe)](https://app.codacy.com/gh/CloudyPadmal/pslab-firmware?utm_source=github.com&utm_medium=referral&utm_content=CloudyPadmal/pslab-firmware&utm_campaign=Badge_Grade_Settings)
 [![Gitter](https://badges.gitter.im/fossasia/pslab.svg)](https://gitter.im/fossasia/pslab?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Mailing List](https://img.shields.io/badge/Mailing%20List-FOSSASIA-blue.svg)](https://groups.google.com/forum/#!forum/pslab-fossasia)
 [![Twitter Follow](https://img.shields.io/twitter/follow/pslabio.svg?style=social&label=Follow&maxAge=2592000?style=flat-square)](https://twitter.com/pslabio)
