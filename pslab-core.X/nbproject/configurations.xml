@@ -50,6 +50,7 @@
         <logicalFolder name="converters" displayName="converters" projectFiles="true">
           <itemPath>registers/converters/adc1.h</itemPath>
           <itemPath>registers/converters/adc_module_features.h</itemPath>
+          <itemPath>registers/converters/ctmu.h</itemPath>
         </logicalFolder>
         <logicalFolder name="memory" displayName="memory" projectFiles="true">
           <itemPath>registers/memory/dma.h</itemPath>
@@ -140,6 +141,7 @@
         </logicalFolder>
         <logicalFolder name="converters" displayName="converters" projectFiles="true">
           <itemPath>registers/converters/adc1.c</itemPath>
+          <itemPath>registers/converters/ctmu.c</itemPath>
         </logicalFolder>
         <logicalFolder name="memory" displayName="memory" projectFiles="true">
           <itemPath>registers/memory/dma.c</itemPath>

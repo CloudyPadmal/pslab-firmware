@@ -8,7 +8,9 @@ void TMR5_Initialize(void) {
     PR5 = 0x00;
     //TCKPS 1:1; TON enabled; TSIDL disabled; TCS FOSC/2; TGATE disabled; 
     T5CON = 0x0000;
-
+    // Disable interrupts
+    _T5IE = 0;
+    _T5IF = 0;
 }
 
 void TMR5_Period16BitSet(uint16_t value) {

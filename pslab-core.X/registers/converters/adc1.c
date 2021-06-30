@@ -138,7 +138,17 @@ void ADC1_SetOperationMode(
             AD1CON3bits.ADCS = 0b00001010; // TAD = Tp*10 = 156.25 ns
             break;
         case ADC1_CTMU_MODE:
-            // initADCCTMU()
+            // Disable DMA channel
+            DMA0CONbits.CHEN = 0;
+            ADC1_ResolutionModeSet(ADC1_RESOLUTION_12_BIT);
+            // Disable Comparator module
+            CM4CONbits.CON = 0;
+            PMD3bits.CMPMD = 1;
+            // Set input channel
+            ADC1_ChannelSelectSet(current_channel_0);
+            // Clock settings
+            AD1CON3bits.SAMC = 0b10000; // 16*TAD auto sample time
+            AD1CON3bits.ADCS = 0b00001010; // TAD = Tp*10 = 156.25 ns
             break;
         default:
             break;
